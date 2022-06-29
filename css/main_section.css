@@ -77,9 +77,7 @@ section img {
 .con6 {
   background-color: #f7f7f7;
 }
-.con4 {
-  background-color: #559cde;
-}
+
 .con2 {
   position: relative;
 }
@@ -100,4 +98,57 @@ section img {
   color: #0d5895;
   font-weight: bold;
   border: 1px solid #b5baba;
+}
+.con3 {
+  padding-bottom: 60px;
+}
+.con3 .inner {
+  position: relative;
+}
+.con3 .gra {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.con4 {
+  background-color: #559cde;
+  color: #fff;
+  height: 588px;
+  overflow: hidden;
+  transition: 0.5s;
+}
+.con4.bgdark {
+  background-color: rgb(31, 8, 73);
+}
+.con5 .more2 {
+  margin: 50px 0 30px 0;
+  border: 1px solid #eaeaea;
+  padding: 18px;
+  border-radius: 3px;
+}
+.con6 {
+  padding-bottom: 83px;
+}
+.con6 hr {
+  width: 68px;
+  border-bottom: 1px solid #000;
+}
+.con6 img {
+  width: 100px;
+}
+.con6 .inner h4 {
+  padding-top: 24px;
+  padding-bottom: 25px;
+  font-weight: bold;
+  font-size: 16px;
+}
+.con6 li {
+  padding-bottom: 50px;
+  border-bottom: 1px solid #eaeaea;
+}
+.con6 li:last-child {
+  border: 0;
+}
+.con6 p {
+  color: #676767;
 }
