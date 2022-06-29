@@ -119,15 +119,13 @@ section img {
 }
 .con4.bgdark {
   background-color: rgb(31, 8, 73);
+  /* background-image: url(../images/); */
 }
 .con5 .more2 {
   margin: 50px 0 30px 0;
   border: 1px solid #eaeaea;
   padding: 18px;
   border-radius: 3px;
-}
-.con6 {
-  padding-bottom: 83px;
 }
 .con6 hr {
   width: 68px;

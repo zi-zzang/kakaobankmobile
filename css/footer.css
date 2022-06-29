@@ -5,7 +5,7 @@ footer {
 footer ul {
   display: flex;
   padding-bottom: 17px;
-  font-size: 12px;
+  font-size: 13px;
 }
 footer ul li {
   padding-right: 10px;
@@ -31,4 +31,15 @@ footer p a {
   font-size: 12px;
   padding: 2px;
   margin-left: 14px;
+}
+@media screen and (max-width: 480px) {
+  footer ul {
+    display: block;
+  }
+  footer ul li {
+    padding-bottom: 15px;
+  }
+  footer ul li a::after {
+    display: none;
+  }
 }
